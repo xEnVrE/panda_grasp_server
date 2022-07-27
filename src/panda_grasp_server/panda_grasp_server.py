@@ -684,7 +684,7 @@ class PandaActionServer(object):
 
         # ---------------- Compute lift pose
         lift_pose = copy.deepcopy(req.grasp.pose)
-        lift_pose.position.z += 0.30
+        lift_pose.position.z += 0.15
 
         # ---------------- Compute dropoff pose
         drop_pose = copy.deepcopy(req.grasp.pose)
