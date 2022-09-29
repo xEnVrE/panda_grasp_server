@@ -21,7 +21,7 @@ workspace/table_height      : 0.13 # z distance from upper side of the table blo
 workspace/table_size        : [1.0, 2.0, 0.8] # x y z size of table block
 workspace/bench_size        : [0.6, 0.6, 0.6] # x y z
 workspace/bench_mount_xy    : [0.1, 0.0] # x y wrt center of the bench
-workspace/workspace_volume  : [-0.4, 1, -0.6, 0.6, -0.2, 1] # bounding volume for all the robot links [minX, maxX, minY, maxY, minZ, maxZ]
+workspace/workspace_volume  : [-0.25, 0.8, -0.75, 0.4, -0.2, 1.0] # bounding volume for all the robot links [minX, maxX, minY, maxY, minZ, maxZ]
 
 planning/max_vel_scaling_factor     : 0.3 # Configure speed/acceleration in planning
 planning/max_acc_scaling_factor     : 0.3
